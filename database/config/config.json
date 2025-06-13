@@ -1,0 +1,14 @@
+{
+  "development": {
+    "use_env_variable": "DATABASE_URL_DEV",
+    "config": "../config/database.js" 
+  },
+  "test": {
+    "use_env_variable": "DATABASE_URL_TEST",
+    "config": "../config/database.js"
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL_PROD",
+    "config": "../config/database.js"
+  }
+}
